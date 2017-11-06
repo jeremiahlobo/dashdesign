@@ -1,0 +1,83 @@
+	.logo p {
+		
+		padding:5px;
+		margin: 0 auto;
+		color: #000;
+		font-family: 'Montserrat', sans-serif;
+		text-transform: uppercase;
+
+
+	}
+	nav > p{
+		color: #000;
+	}
+	.nav-btn {
+		padding-top: 1%;
+		padding-bottom: 1%;
+		top: calc(50% - XYpx);
+		left: calc(50% - XYpx);
+	}
+
+	/*footer*/
+	.page-footer {
+		padding-top: .3em;
+		background-color: #cdcdcd;
+	}
+	.nav-wrapper{
+		background-color: #cdcdcd;
+	}
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+	
+	html {
+
+		font-family: 'Lato', sans-serif !important;
+		  /* 1 */
+		-ms-text-size-adjust: 100%;
+		  /* 2 */
+		-webkit-text-size-adjust: 100%;
+	}
+	
+	/*sticky footer*/
+	html, body {
+  		height: 100%;
+  		margin: 0;
+	}
+
+	.wrapper {
+		min-height: 100%;
+
+		  /* Equal to height of footer */
+		  /* But also accounting for potential margin-bottom of last child */
+		margin-bottom: -50px;
+	}
+
+	.footer, .push {
+  		height: 50px;
+	}
+
+	video {
+  	width: 100%    !important;
+  	height: auto   !important;
+	}
+
+	section {
+		padding-top: 1%;
+	}
+	ul#dropdown1 {
+		width: none;
+		top:100% !important;
+	}
+
+	.btn-floating.btn-large {
+		background-color: #546e7a !important;
+
+	}
+	.tooltipped {
+		background-color: whitesmoke;
+		color: #cdcdcd;
+	}
